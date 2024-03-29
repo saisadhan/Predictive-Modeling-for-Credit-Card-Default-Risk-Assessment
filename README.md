@@ -13,30 +13,6 @@ Welcome to the Predictive Modeling for Credit Card Default Risk Assessment repos
 
 In this project, I analyze a dataset comprising demographic and financial information for 30,000 account holders. Our objective is to develop predictive models that accurately identify customers at risk of defaulting on their credit card payments. By uncovering patterns and trends associated with defaulting behavior, I enable proactive measures to mitigate risks and optimize customer retention strategies.
 
-### Data Description
-
-- **LIMIT_BAL**: This feature includes both the individual consumer credit and their family (supplementary) credit.
-- **Gender**: 1 represents male, and 2 represents female.
-- **Education**: 1 indicates graduate school, 2 indicates university, 3 indicates high school, and 4 indicates others.
-- **Marital Status**: 1 indicates married, 2 indicates single, and 3 indicates others.
-- **Age**: Represents the age of the credit card holder in years.
-- **PAY_1 to PAY_6**: These columns represent the payment status of credit card holders for the last six months:
-  - **-2**: Indicates no consumption; the credit card holder had no outstanding balance.
-  - **-1**: Indicates that the credit card holder paid the full balance.
-  - **0**: Indicates that the credit card holder paid the minimum payment but not the full balance.
-  - **1**: Indicates that the credit card holder made a payment delay for one month.
-  - **2**: Indicates that the credit card holder made a payment delay for two months.
-  - ...
-  - **8**: Indicates payment delay for eight months.
-  - **9**: Indicates payment delay for nine months and above.
-- **Amount of bill statement (BILL_AMT1 - BILL_AMT6)**: Represents the amount of bill statement for the last six months.
-- **Amount of previous payment (PAY_AMT1 - PAY_AMT6)**: Represents the amount paid for the last six months.
-- **Default Payment Next Month**: This column typically represents whether a credit card holder defaulted on their payment in the next month. 
-  - **1** indicates that the individual defaulted on their payment.
-  - **0** indicates that the individual did not default on their payment.
-- **Education_cat**: Likely represents the education level of the cardholders, encoded into categorical values such as graduate school, university, high school, or others.
-- **graduate school, high school, others, university**: These columns encode the education levels of cardholders into binary values, indicating whether they belong to specific education categories.
-
 ### Data Exploration
 
 #### Key Findings of the Dataset:
@@ -69,22 +45,6 @@ In this project, I followed a rigorous data cleaning process to ensure the quali
 - **Dropped Irrelevant Columns** -  Columns such as ID, EDUCATION_CAT, graduate school, high school, none, others, and university were identified as irrelevant for our analysis and were dropped to streamline the dataset and enhance model performance.
 
 By meticulously cleaning and preprocessing our data, we ensure that our predictive models are built on a solid foundation, leading to more accurate and reliable results.
-
-## Business Proposal
-
-- **Mitigate Credit Card Default Risk**
-- **Drive Sustainable Growth**
-- **Leverage ML Expertise**
-
-## Business Outcomes
-
-- **Risk Management Enhancement**
-- **Targeted Interventions for High-Risk Customers**
-- **Credit Policy Optimization**
-- **Customer Retention Strategies**
-- **Resource Allocation for Collections**
-- **Product and Service Development**
-- **Continuous Improvement**
 
 ### Model Building
 
@@ -142,6 +102,22 @@ Deploy predictive models effectively for credit card default risk assessment, en
 - **Model Retraining:** Plan regular model retraining for continued relevance and accuracy.
 
 This deployment proposal ensures smooth integration and optimization of predictive models for informed risk management strategies.
+
+## Business Proposal
+
+- **Mitigate Credit Card Default Risk**
+- **Drive Sustainable Growth**
+- **Leverage ML Expertise**
+
+## Business Outcomes
+
+- **Risk Management Enhancement**
+- **Targeted Interventions for High-Risk Customers**
+- **Credit Policy Optimization**
+- **Customer Retention Strategies**
+- **Resource Allocation for Collections**
+- **Product and Service Development**
+- **Continuous Improvement**
 
 ### Business Suggestions
 
