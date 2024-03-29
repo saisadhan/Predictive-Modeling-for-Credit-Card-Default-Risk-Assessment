@@ -4,9 +4,14 @@
 
 Welcome to the Predictive Modeling for Credit Card Default Risk Assessment repository. This project aims to leverage supervised machine learning algorithms to predict credit card default, aiding BestCard, a leading credit card company, in enhancing their risk management strategies and minimizing financial losses due to customer defaults.
 
+
+### Model Accuracies 
+
+![Image](https://github.com/saisadhan/Predictive-Modeling-for-Credit-Card-Default-Risk-Assessment/blob/79fc74c412b12f0360c45a08dc119c67269c3f56/Model%20Comaprison.png)
+
 ## Introduction
 
-In this project, we analyze a dataset comprising demographic and financial information for 30,000 account holders. Our objective is to develop predictive models that accurately identify customers at risk of defaulting on their credit card payments. By uncovering patterns and trends associated with defaulting behavior, we enable proactive measures to mitigate risks and optimize customer retention strategies.
+In this project, I analyze a dataset comprising demographic and financial information for 30,000 account holders. Our objective is to develop predictive models that accurately identify customers at risk of defaulting on their credit card payments. By uncovering patterns and trends associated with defaulting behavior, I enable proactive measures to mitigate risks and optimize customer retention strategies.
 
 ### Data Description
 
@@ -47,11 +52,11 @@ In this project, we analyze a dataset comprising demographic and financial infor
 These findings provide a foundational understanding of the dataset, highlighting its size, structure, and integrity, which are crucial for subsequent analysis and model development.
 
 #### visualization of Distribution of Features:
-![Image]() 
+![Image](https://github.com/saisadhan/Predictive-Modeling-for-Credit-Card-Default-Risk-Assessment/blob/79fc74c412b12f0360c45a08dc119c67269c3f56/Visualization%20of%20Feature%20distribution.png) 
 
 ### Data Cleaning
 
-In this project, we followed a rigorous data cleaning process to ensure the quality and reliability of our dataset. Here's a summary of the steps we took:
+In this project, I followed a rigorous data cleaning process to ensure the quality and reliability of our dataset. Here's a summary of the steps we took:
 
 - **Handled Missing Values and Duplicates**
 
@@ -111,13 +116,9 @@ For assessing the performance of my predictive models, I focused on two key metr
 
 These metrics offered a comprehensive view of my models' performance, guiding decisions on their deployment for risk management strategies.
 
-### Model Accuracy Comparison
-
-![Image]()
-
 ### Visualization of ROC Comparison
 
-![Image]()
+![Image](https://github.com/saisadhan/Predictive-Modeling-for-Credit-Card-Default-Risk-Assessment/blob/79fc74c412b12f0360c45a08dc119c67269c3f56/Visualization%20of%20ROC%20Comparison.png)
 
 ### Model Deployment Proposal
 
